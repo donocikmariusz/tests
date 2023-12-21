@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "tests.csproj",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "d:\\programy\\Visual Studio Code\\testy\\tests\\bin\\Debug\\net8.0\\tests.dll",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "preLaunchTask": "Build: tests.csproj",
+            "presentation": {
+                "group": "ionide",
+                "hidden": false
+            }
+        }
+    ]
+}

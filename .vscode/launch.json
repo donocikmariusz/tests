@@ -6,7 +6,7 @@
             "request": "launch",
             "program": "d:\\programy\\Visual Studio Code\\testy\\tests\\bin\\Debug\\net8.0\\tests.dll",
             "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false,
             "preLaunchTask": "Build: tests.csproj",
             "presentation": {

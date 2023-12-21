@@ -1,11 +1,18 @@
-﻿Console.WriteLine("Wprowadź number: ");
-string number = Console.ReadLine();
-string numberAsString = number.ToString();
-char[] letters = numberAsString.ToArray();
-Console.WriteLine("");
+﻿// obliczanie x!
 
-for (int i = number.Length - 1; i >= 0; i--)
-{    Console.Write(number[i]);
+Console.WriteLine("Podaj liczbę do obliczenia silni");
+string s = Console.ReadLine();
+int.TryParse(s, out int x);
+
+
+int[] liczby = new int[x];
+int suma = 0;
+
+for (int i = 0; i < liczby.Length; i++)
+{
+    liczby[i] = i + 1;
+    Console.WriteLine(liczby[i]);
+    suma = suma + liczby[i];
 }
 
-Console.WriteLine("");
+Console.WriteLine("Silnia dla " + x + "!, wynosi: " + suma);
